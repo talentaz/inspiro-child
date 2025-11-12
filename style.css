@@ -1,0 +1,483 @@
+/*
+ Theme Name:   inspiro-child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Inspiro Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     inspiro
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  inspirochild
+*/
+body,
+html {
+  overflow-x: visible;
+}
+.page .entry-content {
+  max-width: calc(1180px + 20px);
+}
+.has-text-align-center {
+  text-align: center;
+}
+@media screen and (min-width: 48em) {
+  .site-footer .widget-columns-3 .footer-widget-1 {
+    flex: 0 0 30% !important;
+  }
+  .site-footer .widget-columns-3 .footer-widget-2 {
+    flex: 0 0 40% !important;
+    padding-right: 0px;
+  }
+  .site-footer .widget-columns-3 .footer-widget-3 {
+    flex: 0 0 30% !important;
+  }
+}
+
+.elementor-element elementor-element-1ef2e21 {
+  position: fixed;
+  top: 0;
+}
+.rnInputPrice {
+  display: none;
+}
+.woocommerce .woocommerce-breadcrumb {
+  margin-top: 1em !important;
+}
+
+.footer-widgets .menu {
+  background-color: transparent;
+}
+.footer-widgets .menu li {
+  clear: both;
+  width: 100%;
+}
+#nav_menu-3 {
+  margin-top: 48px;
+}
+body.home #wpforms-12284,
+#wpforms-widget-7 #wpforms-12284 {
+  background: #1E864C !important;
+  padding: 15px !important;
+  box-shadow: 0px 3px 20px #00000029;
+  border: none !important;
+  color: #fff;
+  width: 100% !important;
+  border-radius: 10px;
+}
+body.home div.wpforms-container-full .wpforms-form .wpforms-title {
+  margin: 0;
+  text-align: center;
+}
+body.home div.wpforms-container-full .wpforms-form .wpforms-description {
+  text-align: center;
+  line-height: 24px;
+}
+body.home .wpforms-page-button,
+div.wpforms-container-full .wpforms-form button[type="submit"],
+#wpforms-widget-7 #wpforms-12284 .wpforms-form button[type="submit"] {
+  background: #222;
+  color: #fff;
+  border: 2px solid #222;
+}
+.woof_container_inner h4 {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+body:not(.page-layout-sidebar-right) #primary {
+  max-width: calc(1180px + 20px);
+}
+.woof_btn_default.woof_show_auto_form {
+  display: none !important;
+}
+#wpforms-widget-7 {
+  max-width: 90%;
+  margin: 0 auto;
+}
+#wpforms-widget-7 form {
+  position: relative;
+}
+#wpforms-widget-7 div.wpforms-container-full .wpforms-form .wpforms-field {
+  padding: 10px 0;
+  clear: none;
+  width: 32.33%;
+  display: inline-block;
+  margin: 0 0.5%;
+}
+#wpforms-widget-7
+  div.wpforms-container-full
+  .wpforms-form
+  textarea.wpforms-field-small {
+  height: 38px;
+}
+#wpforms-widget-7
+  div.wpforms-container-full
+  .wpforms-form
+  #wpforms-12284-field_2-container.wpforms-field {
+  width: 65.66%;
+}
+#wpforms-widget-7
+  div.wpforms-container-full
+  .wpforms-form
+  .wpforms-submit-container {
+  padding: 10px 0 0 0;
+  clear: none;
+  position: absolute;
+  right: 1%;
+  top: 50px;
+}
+#nav_menu-2,
+#nav_menu-4 {
+  width: 50%;
+  display: inline-block;
+}
+#nav_menu-2 li,
+#nav_menu-4 li {
+  margin-bottom: 12px;
+  padding: 0 5px 0 0;
+}
+#nav_menu-2 li a,
+#nav_menu-4 li a {
+  line-height: 20px;
+}
+.navbar .header-logo-wrapper {
+  padding-top: 10px;
+  /* 	background: #ffffff; */
+}
+.site-branding-text .site-title {
+  font-size: 2.15rem;
+  max-width: 420px;
+}
+/* #content {
+	padding-top:125px !important;
+} */
+.show-box-calculator {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #efefef;
+  padding: 15px 20px;
+  display: inline-block;
+  width: 100%;
+}
+.fieldset > * {
+  letter-spacing: normal;
+}
+
+.show-box-calculator .square-feet {
+  float: left;
+  width: 35%;
+}
+.show-box-calculator .square-feet label {
+  position: relative;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-right: 20px;
+}
+
+.show-box-calculator .boxes-detail {
+  float: right;
+  padding-top: 15px;
+  padding-left: 25px;
+  width: 60%;
+  text-align: right;
+}
+.show-box-calculator .boxes-detail p span {
+  font-weight: 300;
+}
+p,
+p span {
+  font-weight: 300;
+  //font-family: \'Poppins\', sans-serif !important;
+}
+.product .quantity {
+  display: none;
+}
+.navbar-nav {
+  justify-content: flex-start;
+}
+.field .control input {
+  height: 30px;
+  padding: 0 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  background: #ffffff;
+  font-size: 15px;
+  max-width: 100%;
+  border-radius: 4px;
+  border: 1px solid silver;
+  background: #ffffff;
+  font-size: 15px;
+  box-shadow: none !important;
+}
+
+.c-product-bottom-total {
+  display: inline-block !important;
+  width: 100%;
+  padding: 9px 20px;
+}
+.c-product-bottom-total .ordertotal-text {
+  float: left;
+  width: 50%;
+}
+.custom-logo-link img {
+  max-width: 180px;
+}
+.c-product-bottom-total p:nth-child(1) {
+  line-height: 2;
+}
+.c-product-bottom-total .ordertotal-text p,
+.c-product-bottom-total .no-gutter p {
+  margin-bottom: 0;
+  line-height: 18px;
+}
+.c-product-bottom-total .ordertotal-text p {
+  font-size: 14px !important;
+}
+.c-product-bottom-total p {
+  float: left;
+  clear: left;
+}
+p,
+p span {
+  font-weight: 300;
+  //font-family: "Poppins", sans-serif !important;
+}
+
+.c-product-bottom-total .no-gutter {
+  float: right;
+  text-align: right;
+}
+
+.c-product-bottom-total .no-gutter p span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1E864C;
+}
+.c-product-bottom-total p .js-total-price {
+  font-size: 26px;
+  line-height: 16px;
+}
+
+.c-product-bottom-total .no-gutter {
+  text-align: right;
+}
+
+#wpmenucartli {
+  display: none;
+}
+
+.summary .product_meta .stan,
+.header-widgets-wrapper .navbar-toggle {
+  display: none;
+}
+
+.summary .product_meta .posted_in {
+  display: block;
+}
+.owl-carousel .owl-stage {
+  margin: 0 auto;
+}
+.footer-widget-1 #nav_menu-2 h2 {
+  width: 200%;
+  text-align: center;
+}
+.footer-widget-2 #block-53 h2 {
+  text-align: center;
+}
+.footer-widget-3 #block-54 h2 {
+  text-align: center;
+}
+.footer-widget-2 #block-52 .wp-container-10,
+.footer-widget-2 #block-52 .wp-block-columns {
+  justify-content: space-between;
+}
+:where(.footer-widget-2 #block-52 .wp-block-columns) {
+  gap: 0.1em;
+}
+@media screen and (min-width: 1024px) {
+  .desktopBrand .sub-menu {
+    width: 320px;
+  }
+  .desktopBrand .sub-menu li {
+    width: 50%;
+    float: left;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-widgets-wrapper .navbar-toggle {
+    display: block;
+  }
+  .add_footer_2_font {
+    font-size: 12px !important;
+  }
+}
+@media screen and (min-width: 769px) {
+  body.home
+    .elementor-element.elementor-element-1ef2e21.elementor-widget.elementor-widget-wpforms {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body:not(.page-layout-sidebar-right) #primary {
+    padding: 0 15px;
+  }
+  .woocommerce #content {
+    padding-top: 160px !important;
+  }
+  .custom-overlay-div{
+    background-size: 70% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .facebook > img,
+  .instagram > img,
+  .twitter > img,
+  .houzz > img,
+  .pinterest > img {
+    height: 40px;
+    font-size: 50px;
+  }
+}
+.single_add_to_cart_button.button.alt {
+  background-color: #1E864C !important;
+  color: #fff !important;
+  border-color: #1E864C !important;
+}
+.single_add_to_cart_button.button.alt:hover {
+  background-color: #0bb4aa !important;
+  color: #fff !important;
+  border-color: #0bb4aa !important;
+}
+.woocommerce #content div.product p.price{
+  color: #1E864C !important;
+}
+.product_meta a{
+  color: #1E864C !important;
+}
+#newfloors_floors:hover, #newfloors_services:hover, #newfloors_reviews:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.navbar .header-inner.wpz_layout_full {
+  max-width: 1440px !important;
+  padding-left: 1.25rem;
+  padding-right:1.25rem;
+}
+#content .inner-wrap{
+  position: relative;
+}
+body.elementor-page .entry-content a, body.fl-builder .entry-content a, body.woocommerce-page .entry-content a{
+  color: #1E864C !important;
+}
+#colophon-new{
+  position: relative;
+}
+#colophon-new.site-footer .inner-wrap{
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}
+.navbar-nav ul{
+  background: #3b3328;
+}
+#are_you_builder h2{
+  max-width: 500px;
+  margin: 0 auto;
+}
+#wpforms-17617{
+  max-width: 800px;
+}
+#wpforms-17617 .wpforms-head-container{
+  color: white;
+}
+#wpforms-17617 label{
+  color: white;
+}
+#wpforms-17617 button{
+  background-color: #dcd4c9;
+  color: #3b3328;
+}
+#wpforms-17617 button:hover{
+  background-color: #3b3328;
+  border-color:#3b3328 ;
+  color: white;
+}
+.side-nav__scrollable-container{
+  background: #3b3328;
+}
+.elementor-widget-container p a, .elementor-widget-container a{
+  color: #1E864C !important;
+  background-color: transparent !important;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{
+  color: #1E864C !important;
+}
+.site-content-contain{
+  background-color: #DCD5C9 !important;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product a h2{
+  color: #1E864C !important;
+}
+.custom-overlay-div{
+  background-image: url("https://www.uniquewoodfloor.com/wp-content/uploads/2024/12/Home-Graphic.png");
+  background-position: -120px -100px;
+  opacity: 0.2;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.elementor-widget-container .wpz-testimonial-item{
+  background-color: transparent !important;
+}
+.elementor-widget-button .elementor-button-wrapper a,.woocommerce button.button,body.woocommerce-page #main.site-main .entry-content .checkout-button, #main.site-main .entry-content a.elementor-button{
+  color: #fff !important;
+  background-color: #1E864C !important;
+  border-color: #1E864C !important;
+}
+
+.elementor-widget-button .elementor-button-wrapper a:hover,.woocommerce button.button:hover,body.woocommerce-page .entry-content .checkout-button:hover, #wpforms-submit-16637:hover{
+  opacity: 0.6;
+}
+#main.site-main{
+  position: relative;
+}
+#main.site-main .entry-content p a, #main.site-main .entry-content a{
+  color: #1E864C !important;
+}
+#main.site-main #newfloors_floors a, #main.site-main #newfloors_services a, #main.site-main #newfloors_reviews a, #main.site-main #contact_room_image1 .elementor-heading-title a, #main.site-main #contact_room_image2 .elementor-heading-title a, #main.site-main #contact_room_image3 .elementor-heading-title a{
+  color: #fff !important;
+}
+#wpforms-submit-16637{
+  color: #fff !important;
+  background-color: #1E864C !important;
+  border-color: #1E864C !important;
+}
+.entry-summary .link-more .more-link{
+  color: #fff !important;
+  background-color: #1E864C !important;
+  border-color: #1E864C !important;
+}
+.entry-summary .link-more .more-link:hover{
+  color: #fff !important;
+  background-color: #8daa20 !important;
+  border-color: #8daa20 !important;
+}
+
+.page .entry-title, .page-title {
+    color: #3e3328;
+}

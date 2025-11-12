@@ -1,0 +1,67 @@
+.has-header-image .navbar, .has-header-video .navbar{
+    background: #3b3328;
+    ;
+        background-image: none;
+    }
+    .headroom--not-top .navbar,
+                .has-header-image.home.blog .headroom--not-top .navbar, 
+                .has-header-image.inspiro-front-page .headroom--not-top .navbar, 
+                .has-header-video.home.blog .headroom--not-top .navbar, 
+                .has-header-video.inspiro-front-page .headroom--not-top .navbar {
+                    background-color: #3b3328;
+                }
+    .h3-weight h3{
+        font-weight:600;
+    }
+    .elementor-5550 .elementor-element.elementor-element-23660d2 > .elementor-background-overlay{
+        filter:brightness(100);
+    }
+    #wpforms-form-17269{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+    }
+    .elementor-5550 .elementor-element.elementor-element-326263a, .elementor-5550 .elementor-element.elementor-element-326263a .elementor-heading-title{
+        margin-bottom:0px;
+    }
+    #wpforms-17269{
+        margin:0px;
+    }
+    #wpforms-submit-17269{
+        background: #3b3328;
+      border: 0;
+      color: #fff;
+    }
+    #wpforms-17269-field_1, #wpforms-17269-field_1-last, #wpforms-17269-field_2{
+        padding: 10px 15px;
+      font-size: 1rem;
+      height: 50px;
+    }
+    #wpforms-confirmation-17269{
+        text-align: center;
+      background: transparent;
+      border: 0;
+    }
+    .elementor-widget-container p{
+       // font-family: "Montserrat", Sans-serif !important;
+    }
+     @media screen and (max-width:768px){
+         #colophon-new .site-info .copyright span{
+             text-align:center;
+         }
+         #wpforms-form-17269{
+             flex-wrap:wrap;
+         }
+         #wpforms-17269-field_1-container {
+             width:100%;
+         }
+         #wpforms-17269-field_1-container .wpforms-field-row .wpforms-field-row-block{
+             width:100%;
+             margin-left:0px;
+             margin-top:20px;
+         }
+         #wpforms-17269-field_2-container{
+             width: 100%;
+              margin-left: 0px;
+         }
+    }
