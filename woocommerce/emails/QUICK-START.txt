@@ -1,0 +1,60 @@
+QUICK START GUIDE - Custom Email Template
+==========================================
+
+STEP 1: Create Images Folder
+-----------------------------
+Create a folder: inspiro-child/images/
+
+STEP 2: Add Required Images
+----------------------------
+You need 6 images:
+
+1. email-hero.jpg - The wood floor interior photo at the top
+2. unique-logo.png - "UNIQUE WOOD FLOORS" logo (main)
+3. unique-logo-footer.png - Logo for footer (can be same as #2)
+4. icon-facebook.png - Facebook icon (20x20px)
+5. icon-instagram.png - Instagram icon (20x20px)
+6. icon-linkedin.png - LinkedIn icon (20x20px)
+
+STEP 3: Update Social Media Links
+----------------------------------
+Edit: woocommerce/emails/email-footer.php
+
+Find these lines and update URLs:
+- Line 30: https://facebook.com/uniquewoodfloors
+- Line 35: https://instagram.com/uniquewoodfloors
+- Line 40: https://linkedin.com/company/uniquewoodfloors
+
+STEP 4: Update Email Address
+-----------------------------
+Edit: woocommerce/emails/email-footer.php
+Line 48: Change to your actual email address
+
+STEP 5: Test the Email
+-----------------------
+1. Go to WordPress Admin
+2. WooCommerce > Settings > Emails
+3. Click "Processing order"
+4. Scroll down
+5. Click "Send test email"
+6. Enter your email address
+7. Check your inbox!
+
+TROUBLESHOOTING
+---------------
+If images don't show:
+- Make sure images are in: inspiro-child/images/
+- Check file names match exactly (case-sensitive)
+- Verify images are web-optimized (JPG/PNG format)
+
+If email looks broken:
+- Clear WooCommerce cache
+- Test in different email clients (Gmail, Outlook, etc.)
+
+CUSTOMIZATION
+-------------
+To change colors, edit: woocommerce/emails/email-styles.php
+Lines 22-36 contain all color definitions
+
+To change text, edit: woocommerce/emails/customer-processing-order.php
+

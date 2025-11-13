@@ -28,26 +28,43 @@ defined( 'ABSPATH' ) || exit;
 									<!-- End Body -->
 								</td>
 							</tr>
-						</table>
-					</td>
-				</tr>
-				<tr>
-					<td align="center" valign="top">
-						<!-- Footer -->
-						<table border="0" cellpadding="10" cellspacing="0" width="600" id="template_footer">
+							<!-- Footer Section -->
 							<tr>
-								<td valign="top">
-									<table border="0" cellpadding="10" cellspacing="0" width="100%">
+								<td align="center" valign="top" style="padding:40px 40px 30px 40px; background-color:#FFFFFF;">
+									<!-- Logo -->
+									<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/images/unique-logo-footer.png' ); ?>" alt="Unique Wood Floors" style="display:block; width:120px; height:auto; margin:0 auto 10px auto; border:0;" />
+									<!-- Tagline -->
+									<p style="margin:0 0 20px 0; padding:0; font-family:Arial, sans-serif; font-size:12px; color:#8B9D6F; text-align:center; line-height:1.4;">
+										The foundation of elegant interiors
+									</p>
+									<!-- Social Icons -->
+									<table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 20px auto;">
 										<tr>
-											<td colspan="2" valign="middle" id="credit">
-												<?php echo wp_kses_post( wpautop( wptexturize( apply_filters( 'woocommerce_email_footer_text', get_option( 'woocommerce_email_footer_text' ) ) ) ) ); ?>
+											<td style="padding:0 8px;">
+												<a href="https://facebook.com/uniquewoodfloors" style="text-decoration:none;">
+													<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/images/icon-facebook.png' ); ?>" alt="Facebook" style="display:block; width:20px; height:20px; border:0;" />
+												</a>
+											</td>
+											<td style="padding:0 8px;">
+												<a href="https://instagram.com/uniquewoodfloors" style="text-decoration:none;">
+													<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/images/icon-instagram.png' ); ?>" alt="Instagram" style="display:block; width:20px; height:20px; border:0;" />
+												</a>
+											</td>
+											<td style="padding:0 8px;">
+												<a href="https://linkedin.com/company/uniquewoodfloors" style="text-decoration:none;">
+													<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/images/icon-linkedin.png' ); ?>" alt="LinkedIn" style="display:block; width:20px; height:20px; border:0;" />
+												</a>
 											</td>
 										</tr>
 									</table>
+									<!-- Contact Email -->
+									<p style="margin:0; padding:0; font-family:Arial, sans-serif; font-size:14px; color:#2C3E2E; text-align:center; line-height:1.4;">
+										<a href="mailto:sales@uniquewoodfloor.com" style="color:#2C3E2E; text-decoration:none;">sales@uniquewoodfloor.com</a>
+									</p>
 								</td>
 							</tr>
 						</table>
-						<!-- End Footer -->
+						<!-- End Main Container -->
 					</td>
 				</tr>
 			</table>
